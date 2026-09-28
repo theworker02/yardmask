@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/yardmask",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Yard digests and mask fingerprints for local integrity checks.",
+  "bin": {
+    "yardmask": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/yardmask.git"
+  },
+  "homepage": "https://theworker02.github.io/yardmask/",
+  "keywords": [
+    "yard",
+    "mask",
+    "hash",
+    "cli",
+    "toolkit"
+  ]
+}
